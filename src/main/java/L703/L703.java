@@ -9,7 +9,9 @@ public class L703 {
 
     public L703(int k, int[] nums) {
         this.k = k;
-        for (int n : nums) add(n);
+        for (int n : nums) {
+            add(n);
+        }
     }
 
     public int add(int val) {
