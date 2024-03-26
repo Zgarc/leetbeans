@@ -1,6 +1,6 @@
 package L125;
 
-public class L125 {
+public class Solution {
     public static boolean isPalindrome(String s) {
 
         int i = 0;

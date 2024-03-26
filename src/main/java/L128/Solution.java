@@ -3,7 +3,7 @@ package L128;
 import java.util.HashSet;
 import java.util.Set;
 
-public class L128 {
+public class Solution {
     public static int longestConsecutive(int[] nums) {
         if (nums.length == 0) return 0;
         Set<Integer> set = new HashSet<>();

@@ -10,7 +10,7 @@ public class TestCases {
     public void emptyArray() {
         int[] input = new int[]{};
         int[] expected = new int[]{};
-        int[] result = L347.topKFrequent(input, 2);
+        int[] result = Solution.topKFrequent(input, 2);
         assertArrayEquals(result, expected);
     }
 
@@ -18,7 +18,7 @@ public class TestCases {
     public void oneElement() {
         int[] input = new int[]{1};
         int[] expected = new int[]{1};
-        int[] result = L347.topKFrequent(input, 1);
+        int[] result = Solution.topKFrequent(input, 1);
         assertArrayEquals(result, expected);
     }
 
@@ -26,7 +26,7 @@ public class TestCases {
     public void test1() {
         int[] input = new int[]{1, 1, 1, 2, 2, 3};
         int[] expected = new int[]{1, 2};
-        int[] result = L347.topKFrequent(input, 2);
+        int[] result = Solution.topKFrequent(input, 2);
         assertArrayEquals(result, expected);
     }
 
@@ -34,7 +34,7 @@ public class TestCases {
     public void test2() {
         int[] input = new int[]{1, 1, 1, 2, 2, 2, 3, 3, 3, 4};
         int[] expected = new int[]{1, 2, 3};
-        int[] result = L347.topKFrequent(input, 3);
+        int[] result = Solution.topKFrequent(input, 3);
         assertArrayEquals(result, expected);
     }
 
@@ -42,7 +42,7 @@ public class TestCases {
     public void test3() {
         int[] input = new int[]{5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 1, 1, 1, 2, 3, 7, 8};
         int[] expected = new int[]{5, 4};
-        int[] result = L347.topKFrequent(input, 2);
+        int[] result = Solution.topKFrequent(input, 2);
         assertArrayEquals(result, expected);
     }
 

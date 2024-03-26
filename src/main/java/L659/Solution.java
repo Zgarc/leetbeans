@@ -2,7 +2,7 @@ package L659;
 
 import java.util.List;
 
-public class L659 {
+public class Solution {
     /*
      * @param strs: a list of strings
      * @return: encodes a list of strings to a single string.

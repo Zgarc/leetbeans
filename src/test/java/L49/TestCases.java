@@ -12,7 +12,7 @@ public class TestCases {
     @Test
     public void emptyList() {
         String[] input = new String[]{};
-        List<List<String>> output = L49.groupAnagrams(input);
+        List<List<String>> output = Solution.groupAnagrams(input);
 
         List<List<String>> expected = Arrays.asList();
 
@@ -22,7 +22,7 @@ public class TestCases {
     @Test
     public void emptyString() {
         String[] input = new String[]{""};
-        List<List<String>> output = L49.groupAnagrams(input);
+        List<List<String>> output = Solution.groupAnagrams(input);
 
         List<List<String>> expected = Arrays.asList(list(""));
 
@@ -32,7 +32,7 @@ public class TestCases {
     @Test
     public void singleCharacter() {
         String[] input = new String[]{"a"};
-        List<List<String>> output = L49.groupAnagrams(input);
+        List<List<String>> output = Solution.groupAnagrams(input);
 
         List<List<String>> expected = Arrays.asList(list("a"));
 
@@ -42,7 +42,7 @@ public class TestCases {
     @Test
     public void test1() {
         String[] input = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};
-        List<List<String>> output = L49.groupAnagrams(input);
+        List<List<String>> output = Solution.groupAnagrams(input);
 
         List<List<String>> expected =
                 Arrays.asList(
@@ -57,7 +57,7 @@ public class TestCases {
     @Test
     public void test2() {
         String[] input = new String[]{"cat", "act", "beak", "bake", "meats", "steam", "race"};
-        List<List<String>> output = L49.groupAnagrams(input);
+        List<List<String>> output = Solution.groupAnagrams(input);
 
         List<List<String>> expected = Arrays.asList(
                 list("cat", "act"),

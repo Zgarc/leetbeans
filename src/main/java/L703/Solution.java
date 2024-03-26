@@ -2,12 +2,12 @@ package L703;
 
 import java.util.PriorityQueue;
 
-public class L703 {
+public class Solution {
 
     final PriorityQueue<Integer> heap = new PriorityQueue<>();
     final int k;
 
-    public L703(int k, int[] nums) {
+    public Solution(int k, int[] nums) {
         this.k = k;
         for (int n : nums) {
             add(n);

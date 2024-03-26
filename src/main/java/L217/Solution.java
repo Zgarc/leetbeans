@@ -2,7 +2,7 @@ package L217;
 
 import java.util.HashSet;
 
-public class L217 {
+public class Solution {
     public static boolean containsDuplicate(int[] nums) {
         HashSet<Integer> iterated = new HashSet<>();
 

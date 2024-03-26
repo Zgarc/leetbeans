@@ -1,6 +1,6 @@
 package L121;
 
-public class L121 {
+public class Solution {
     public static int maxProfit(int[] prices) {
         int left = 0;
         int right = 1;

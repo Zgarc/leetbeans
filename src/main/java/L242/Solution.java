@@ -1,9 +1,6 @@
 package L242;
 
-import java.util.Arrays;
-import java.util.HashMap;
-
-public class L242 {
+public class Solution {
 //    public static boolean isAnagram(String s, String t) {
 //        if(s.length() != t.length()) return false;
 //

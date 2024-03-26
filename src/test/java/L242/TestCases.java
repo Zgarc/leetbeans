@@ -11,27 +11,27 @@ public class TestCases {
      */
     @Test
     public void test1() {
-        assertTrue(L242.isAnagram("car", "rac"));
-        assertTrue(L242.isAnagram("anagram", "nagaram"));
-        assertTrue(L242.isAnagram("tea", "eat"));
-        assertTrue(L242.isAnagram("ate", "tea"));
-        assertTrue(L242.isAnagram("race", "erac"));
-        assertTrue(L242.isAnagram("racecar", "carecar"));
-        assertTrue(L242.isAnagram("tree", "rete"));
-        assertTrue(L242.isAnagram("sat", "ast"));
+        assertTrue(Solution.isAnagram("car", "rac"));
+        assertTrue(Solution.isAnagram("anagram", "nagaram"));
+        assertTrue(Solution.isAnagram("tea", "eat"));
+        assertTrue(Solution.isAnagram("ate", "tea"));
+        assertTrue(Solution.isAnagram("race", "erac"));
+        assertTrue(Solution.isAnagram("racecar", "carecar"));
+        assertTrue(Solution.isAnagram("tree", "rete"));
+        assertTrue(Solution.isAnagram("sat", "ast"));
     }
     /**
      * None of these are anagrams
      */
     @Test
     public void test2() {
-        assertFalse(L242.isAnagram("car", "race"));
-        assertFalse(L242.isAnagram("tea", "rat"));
-        assertFalse(L242.isAnagram("ate", "at"));
-        assertFalse(L242.isAnagram("sar", "as"));
-        assertFalse(L242.isAnagram("as", "tt"));
-        assertFalse(L242.isAnagram("qq", "tt"));
-        assertFalse(L242.isAnagram("tree", "apple"));
-        assertFalse(L242.isAnagram("sat", "thunder"));
+        assertFalse(Solution.isAnagram("car", "race"));
+        assertFalse(Solution.isAnagram("tea", "rat"));
+        assertFalse(Solution.isAnagram("ate", "at"));
+        assertFalse(Solution.isAnagram("sar", "as"));
+        assertFalse(Solution.isAnagram("as", "tt"));
+        assertFalse(Solution.isAnagram("qq", "tt"));
+        assertFalse(Solution.isAnagram("tree", "apple"));
+        assertFalse(Solution.isAnagram("sat", "thunder"));
     }
 }

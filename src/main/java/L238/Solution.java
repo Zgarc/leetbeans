@@ -1,6 +1,6 @@
 package L238;
 
-public class L238 {
+public class Solution {
     public static int[] productExceptSelf(int[] nums) {
         int[] result = new int[nums.length];
 

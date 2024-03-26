@@ -3,7 +3,7 @@ package L347;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
-public class L347 {
+public class Solution {
     public static int[] topKFrequent(int[] nums, int k) {
         if (nums.length == 0) return nums;
 
